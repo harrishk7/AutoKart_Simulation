@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Frontend
+node_modules/
+dist/
+dist-dashboard/
+dist-lab/
+*.tsbuildinfo
+*.bak-*
+
+# ROS / simulation outputs
+kart/ros2_ws/build/
+kart/ros2_ws/install/
+kart/ros2_ws/log/
+kart/artifacts/
+kart/runs/
+kart/log/
+kart/autokart_codex_prompts/
+*.zip
+*.tar.gz
+
+# Local files
+.DS_Store
+*.swp
+*~
+.env
+.env.*
